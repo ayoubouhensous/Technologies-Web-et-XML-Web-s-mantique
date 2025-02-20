@@ -99,5 +99,168 @@ This project is a simplified reproduction of Google's homepage. It uses **HTML**
 
 ---
 
+# Portfolio Website
 
+This is a personal portfolio website designed to showcase my skills, projects, and contact information. It is built using **HTML** and **CSS**, with a responsive design and smooth scrolling functionality.
+
+---
+
+## Features
+
+1. **Responsive Navigation Bar:**
+   - Contains links to different sections of the page (Home, About Me, Skills, Projects, Contact Me).
+   - Sticky header that remains fixed at the top while scrolling.
+   - Hover effects for links and buttons.
+
+2. **Home Section:**
+   - Displays a greeting, my name, and a brief introduction.
+   - Includes a button to navigate to the "About Me" section.
+
+3. **About Me Section:**
+   - Provides a detailed description of my background, education, and interests.
+   - Includes an image and a button to return to the home section.
+
+4. **Skills Section:**
+   - Displays my technical skills using progress bars for programming languages and frameworks.
+   - Each skill has a percentage indicator and an icon.
+
+5. **Projects Section:**
+   - Highlights my key projects with descriptions and images.
+   - Includes a link to my GitHub profile.
+
+6. **Contact Me Section:**
+   - A contact form for users to send messages.
+   - Input fields for name, email, subject, and message.
+
+7. **Footer:**
+   - Contains social media links and quick navigation links.
+   - Includes a copyright notice.
+
+---
+
+## Technologies Used
+
+- **HTML**: For structuring the content.
+- **CSS**: For styling and layout.
+- **Boxicons**: For icons used in the skills section and footer.
+- **Google Fonts**: For the "Poppins" font.
+
+---
+
+## How to Use
+
+1. **Download the Files:**
+   - Clone or download the repository to your local machine.
+
+2. **Open the Project:**
+   - Open the `index.html` file in your browser to view the portfolio.
+
+3. **Modify the Content:**
+   - Edit the `index.html` file to update your personal information, projects, and skills.
+   - Customize the styles in the `style.css` file to match your preferences.
+
+4. **Add Images:**
+   - Replace the placeholder images (`ayoub.jpg`, `planning.png`) with your own images.
+
+---
+
+## Code Structure
+
+### HTML (`index.html`)
+- **Header (`<header>`):**
+  - Contains the logo, navigation links, and a contact button.
+- **Home Section (`<section class="home">`):**
+  - Displays a greeting, name, and a button.
+- **About Me Section (`<section class="about">`):**
+  - Includes an image and a detailed description.
+- **Skills Section (`<section class="skills">`):**
+  - Uses progress bars to display skill levels.
+- **Projects Section (`<section class="project">`):**
+  - Highlights projects with descriptions and images.
+- **Contact Me Section (`<section class="contact-form">`):**
+  - Contains a form for user input.
+- **Footer (`<footer>`):**
+  - Includes social media links and quick navigation.
+
+### CSS (`style.css`)
+- **Global Styles:**
+  - Resets default margins and paddings.
+  - Sets the font family and smooth scrolling behavior.
+- **Header Styles:**
+  - Fixed position with a backdrop filter for a blurred effect.
+  - Hover effects for links and buttons.
+- **Home Section Styles:**
+  - Flexbox layout for aligning content and image.
+- **About Me Section Styles:**
+  - Flexbox layout with a centered image and text.
+- **Skills Section Styles:**
+  - Progress bars with animations and percentage indicators.
+- **Projects Section Styles:**
+  - Flexbox layout with images and descriptions.
+- **Contact Me Section Styles:**
+  - Styled input fields and a submit button.
+- **Footer Styles:**
+  - Social media icons with hover effects.
+
+---
+
+## Key CSS Features
+
+1. **Flexbox Layout:**
+   - Used for aligning and distributing space among items in the header, home, about, and projects sections.
+   ```css
+   .home {
+       display: flex;
+       align-items: center;
+       gap: 7em;
+   }
+   ```
+2. **Progress Bars:**
+   - Animated progress bars for displaying skill levels.
+   ```css
+   .progress-line span {
+    height: 100%;
+    background-color: #FFD700;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+   ```
+3. **Hover Effects:**
+   - Adds interactivity to buttons and links.
+   ```css
+   .contact:hover {
+    background-color: #FFD700;
+    box-shadow: 0 0 25px #FFD700;
+}
+   ```
+4. **Smooth Scrolling:**
+   - Enabled for a better user experience.
+   ```css
+   html, body {
+    scroll-behavior: smooth;
+}
+   ```
+5. **Responsive Design:**
+   - The layout adjusts to different screen sizes using flexible units (em, %) and media queries (not included but can be added).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
