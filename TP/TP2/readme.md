@@ -10,7 +10,7 @@ function degreC(tempF) {
     return (5 / 9) * (tempF - 32);
 }
 ```
-Usage:
+### Usage:
 -Input: A temperature in Fahrenheit (tempF).
 
 -Output: The equivalent temperature in Celsius.
@@ -40,8 +40,8 @@ function hjms(secondes) {
 
     console.log(`Cette durée équivaut à ${j} jours, ${h} heures, ${m} minutes et ${s} secondes.`);
 }
-
-Usage:
+```
+### Usage:
 -Input: A duration in seconds (secondes).
 
 -Output: The equivalent time in days, hours, minutes, and seconds, displayed in the console.
@@ -79,7 +79,7 @@ function hjms1(secondes) {
     console.log(resultat);
 }
 ```
-Usage:
+### Usage:
 -Input: A duration in seconds (secondes).
 
 -Output: The equivalent time in days, hours, minutes, and seconds, displayed in the console. Only non-zero values are included in the output.
@@ -99,7 +99,7 @@ function troisNombres(a, b, c) {
     return [a, b, c].sort();
 }
 ```
-Usage:
+### Usage:
 -Input: Three numbers (a, b, c).
 
 -Output: An array containing the three numbers sorted in ascending order.
@@ -125,7 +125,7 @@ function triangle1(n) {
     }
 }
 ```
-Usage:
+### Usage:
 -Input: An integer n representing the number of rows in the triangle.
 
 -Output: A right-angled triangle pattern printed to the console, with each row containing an increasing number of asterisks.
@@ -146,7 +146,7 @@ function triangle2(n) {
     }
 }
 ```
-Usage:
+### Usage:
 -Input: An integer n representing the number of rows in the triangle.
 
 -Output: A right-angled triangle pattern printed to the console, with each row containing an increasing number of asterisks.
@@ -169,7 +169,7 @@ function pyramide(n) {
     }
 }
 ```
-Usage:
+### Usage:
 -Input: An integer n representing the number of rows in the pyramid.
 
 -Output: A pyramid pattern printed to the console, with each row centered and containing an increasing number of asterisks.
@@ -194,7 +194,7 @@ function Premier(val) {
     console.log(`${val} est un nombre premier`);
 }
 ```
-Usage:
+### Usage:
 -Input: An integer val greater than 1.
 
 -Output: A message indicating whether the number is prime or not. If the number is not prime, it also prints one of its divisors.
@@ -217,7 +217,7 @@ function Fibo1(n) {
     }
 }
 ```
-Usage:
+### Usage:
 -Input: An integer n representing the position in the Fibonacci sequence.
 
 -Output: The nth Fibonacci number.
@@ -247,7 +247,8 @@ function Fibo2(val) {
     }
     return ind; // Return the position
 }
-Usage:
+```
+### Usage:
 -Input: An integer val representing a number to check in the Fibonacci sequence.
 
 -Output: The position of the smallest Fibonacci number greater than or equal to val.
@@ -270,7 +271,7 @@ function Raca1(A) {
     return p; // Return the calculated square root
 }
 ```
-Usage:
+### Usage:
 -Input: A positive number A for which the square root is to be calculated.
 
 -Output: The approximate square root of A with a precision of 10^-5.
