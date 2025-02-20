@@ -241,12 +241,24 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 ```
 ## interface 
 
-![Capture d’écran 2025-02-20 220001](https://github.com/user-attachments/assets/191fbfb5-069d-4231-a501-03018e6f9074)
-![Capture d’écran 2025-02-20 215852](https://github.com/user-attachments/assets/e6792070-2662-483b-a73b-3337803a34dc)
-![Capture d’écran 2025-02-20 215833](https://github.com/user-attachments/assets/e95b8265-ebf5-4ab1-b897-a92873cb89d1)
-![Capture d’écran 2025-02-20 215819](https://github.com/user-attachments/assets/4262da44-7273-46cc-9530-d916f40fa9bb)
-![Capture d’écran 2025-02-20 215804](https://github.com/user-attachments/assets/730ac890-1928-43b9-9b84-820d5c8f1ba6)
+### home 
 ![Capture d’écran 2025-02-20 215733](https://github.com/user-attachments/assets/d8efc9b3-729d-4af1-9934-fea3ce2b81d6)
+
+### about me
+![Capture d’écran 2025-02-20 215804](https://github.com/user-attachments/assets/730ac890-1928-43b9-9b84-820d5c8f1ba6)
+
+### skills
+![Capture d’écran 2025-02-20 215819](https://github.com/user-attachments/assets/4262da44-7273-46cc-9530-d916f40fa9bb)
+
+### project
+![Capture d’écran 2025-02-20 215833](https://github.com/user-attachments/assets/e95b8265-ebf5-4ab1-b897-a92873cb89d1)
+
+### contact me 
+![Capture d’écran 2025-02-20 215852](https://github.com/user-attachments/assets/e6792070-2662-483b-a73b-3337803a34dc)
+
+### footer
+![Capture d’écran 2025-02-20 220001](https://github.com/user-attachments/assets/191fbfb5-069d-4231-a501-03018e6f9074)
+
 
 
 
