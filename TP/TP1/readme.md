@@ -239,11 +239,6 @@ This is a personal portfolio website designed to showcase my skills, projects, a
     scroll-behavior: smooth;
 }
    ```
-5. **Responsive Design:**
-   - The layout adjusts to different screen sizes using flexible units (em, %) and media queries (not included but can be added).
-
-
-## Interface
 
 
 ![Image](https://github.com/user-attachments/assets/2df7344b-900c-4674-af14-64db51ee2363)
