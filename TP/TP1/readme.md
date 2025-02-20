@@ -242,9 +242,30 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 5. **Responsive Design:**
    - The layout adjusts to different screen sizes using flexible units (em, %) and media queries (not included but can be added).
 
+
 ## Interface
 
-![image](https://github.com/user-attachments/assets/bb69f68d-4719-448e-bc77-27ae0b83c237)
+
+![Capture d’écran 2025-02-20 215733](https://github.com/user-attachments/assets/d1bf5082-f2a0-4de4-8296-bb18b97e56cc)
+
+
+![Capture d’écran 2025-02-20 215804](https://github.com/user-attachments/assets/1e05e0ee-f495-4f78-be43-f5c4f19376f9)
+
+
+![Capture d’écran 2025-02-20 215819](https://github.com/user-attachments/assets/0516e55b-3ec2-4e04-b24d-9beeae21ab00)
+
+
+![Capture d’écran 2025-02-20 215833](https://github.com/user-attachments/assets/6a180e99-4a7a-45a0-89ea-2fd15fc00063)
+
+
+![Capture d’écran 2025-02-20 215852](https://github.com/user-attachments/assets/3c9a005c-bc36-435c-a8e1-12d9bb527759)
+
+
+
+![Capture d’écran 2025-02-20 220001](https://github.com/user-attachments/assets/4814cc1f-42d9-4808-ae3c-d5d570e09fab)
+
+
+
 
 
 
