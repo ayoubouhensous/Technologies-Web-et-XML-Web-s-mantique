@@ -203,7 +203,42 @@ This is a personal portfolio website designed to showcase my skills, projects, a
   - Social media icons with hover effects.
 
 ---
+## Key CSS Features
 
+1. **Flexbox Layout:**
+   - Used for aligning and distributing space among items in the header, home, about, and projects sections.
+   ```css
+   .home {
+       display: flex;
+       align-items: center;
+       gap: 7em;
+   }
+   ```
+2. **Progress Bars:**
+   - Animated progress bars for displaying skill levels.
+   ```css
+   .progress-line span {
+    height: 100%;
+    background-color: #FFD700;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+   ```
+3. **Hover Effects:**
+   - Adds interactivity to buttons and links.
+   ```css
+   .contact:hover {
+    background-color: #FFD700;
+    box-shadow: 0 0 25px #FFD700;
+}
+   ```
+4. **Smooth Scrolling:**
+   - Enabled for a better user experience.
+   ```css
+   html, body {
+    scroll-behavior: smooth;
+}
+   ```
+```
 ## interface 
 
 ![Capture d’écran 2025-02-20 220001](https://github.com/user-attachments/assets/191fbfb5-069d-4231-a501-03018e6f9074)
