@@ -1,4 +1,4 @@
-# Development of the Google Search Page
+# PART1-Development of the Google Search Page
 
 This project is a simplified reproduction of Google's homepage. It uses **HTML** and **CSS** to create a user interface similar to Google's, featuring a search bar, icons, and a customization button.
 
@@ -99,7 +99,7 @@ This project is a simplified reproduction of Google's homepage. It uses **HTML**
 
 ---
 
-# Portfolio Website
+# PART2-Portfolio Website
 
 This is a personal portfolio website designed to showcase my skills, projects, and contact information. It is built using **HTML** and **CSS**, with a responsive design and smooth scrolling functionality.
 
@@ -241,26 +241,3 @@ This is a personal portfolio website designed to showcase my skills, projects, a
    ```
 5. **Responsive Design:**
    - The layout adjusts to different screen sizes using flexible units (em, %) and media queries (not included but can be added).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
