@@ -240,11 +240,14 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 }
    ```
 
-![Capture d’écran 2025-02-20 215733](https://github.com/user-attachments/assets/a1370c5d-21fb-40cd-82cd-8743824524be)
-![image](https://github.com/user-attachments/assets/27ad4649-1e08-43ac-990a-f27ae8dc537d)
+
+## Key CSS Features
 
 
 
+
+1. **Download the Files:**
+   - Clone or download the repository to your local machine.
 
 
 
