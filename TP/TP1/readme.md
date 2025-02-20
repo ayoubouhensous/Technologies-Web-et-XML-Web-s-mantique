@@ -240,12 +240,7 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 }
    ```
 
-
-![Image](https://github.com/user-attachments/assets/2df7344b-900c-4674-af14-64db51ee2363)
-
-
-
-
+![Capture d’écran 2025-02-20 215733](https://github.com/user-attachments/assets/a1370c5d-21fb-40cd-82cd-8743824524be)
 
 
 
