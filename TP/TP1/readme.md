@@ -244,13 +244,7 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 
 ## Interface
 
-![image](https://github.com/user-attachments/assets/c4d00971-fd18-4799-88fc-9f6cdbb1f26c)
-
-![image](https://github.com/user-attachments/assets/5574fdbe-4e80-4feb-9b16-340ecc8242b4)
-
-![image](https://github.com/user-attachments/assets/9ec298a9-3e36-4521-b99e-8172987807a4)
-
-![image](https://github.com/user-attachments/assets/55855290-ac9e-4aac-b7b7-5c776bf993d2)
+![image](https://github.com/user-attachments/assets/bb69f68d-4719-448e-bc77-27ae0b83c237)
 
 
 
