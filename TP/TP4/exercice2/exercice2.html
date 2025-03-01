@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+    .container {
+            border: solid;
+            width: 250px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column; 
+            gap: 10px; 
+    }
+</style>
+<body>
+    <div class="container">
+        <input type="text" id="T1" placeholder="le premiere valeur">
+        <input type="text" id="T2" placeholder="le deuxieme valeur">
+        
+        <div class="buttons">
+            <button onclick="calculate('+')" >+</button>
+            <button onclick="calculate('-')">-</button>
+            <button onclick="calculate('*')">*</button>
+            <button onclick="calculate('/')">/</button>
+        </div>
+        <input type="text" id="resultat" >
+
+    </div>
+    <script>
+
+        function calculate(op){
+            
+            switch (op){
+
+                case '+':
+                    resultat.value=parseInt(T1.value)+parseInt(T2.value)
+                    break
+                case '-':
+                    resultat.value=parseInt(T1.value)-parseInt(T2.value)
+                    break
+                case '*':
+                    resultat.value=parseInt(T1.value)*parseInt(T2.value)
+                    break
+                case '/':
+                    if(T2.value=='0'){
+                        alert("impossible")
+                    }else{
+                        resultat.value=parseInt(T1.value)/parseInt(T2.value)
+
+                    }
+                default:
+                    break
+
+
+            }
+
+
+        }
+
+
+    </script>
+</body>
+</html>

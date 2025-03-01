@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 0;
+}
+
+.calculator {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 150px white;
+}
+.display {
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 5px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+button{
+    font-size: 25px;
+}
+
+
+
+
+</style>
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <div class="buttons" >
+                <div class="empty"></div> 
+                <div class="empty"></div> 
+                <div class="empty"></div> 
+
+                <button> ( </button>
+                <button> ) </button>
+                <button> % </button>
+                <button> CE</button>
+                <button> Inv</button>
+                <button> sin</button>
+                <button> Ln</button>
+                <button> 7 </button>
+                <button> 8 </button>
+                <button> 9</button>
+                <button> /</button>
+                <button> n</button>
+                <button> cos</button>
+                <button> log </button>
+                <button> 4 </button>
+                <button> 5</button>
+                <button> 6</button>
+                <button> *</button>
+                <button> e</button>
+                <button> tan</button>
+                <button> rac</button>
+                <button> 3</button>
+                <button> 2</button>
+                <button> 1</button>
+                <button> -</button>
+                <button> exp</button>
+                <button> x²</button>
+                <button> x^</button>
+                <button> .</button>
+                <button> 0</button>
+                <button> =</button>
+                <button> +</button>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    
+    <script>
+let display = document.getElementById('display');
+let currentInput = '';
+let operator = '';
+let firstOperand = '';
+let secondOperand = '';
+
+document.querySelectorAll('button').forEach((button) => {
+    button.addEventListener('click', function() {
+        let value = button.textContent.trim();
+
+        if (value === 'CE') {
+            // Clear everything
+            currentInput = '';
+            operator = '';
+            firstOperand = '';
+            secondOperand = '';
+            display.textContent = '0';
+        } else if (value === '=') {
+            // Perform calculation
+            if (firstOperand && operator && currentInput) {
+                secondOperand = currentInput;
+                let result = calculate(firstOperand, operator, secondOperand);
+                display.textContent = result;
+                currentInput = result;
+                operator = '';
+                firstOperand = '';
+                secondOperand = '';
+            }
+        } else if (value === 'x^') {
+            // Handle power operation
+            if (currentInput) {
+                firstOperand = currentInput;
+                operator = '^';
+                currentInput = '';
+            }
+        
+        } else if (['+', '-', '*', '/', '%', '^'].includes(value)) {
+            // Handle operators
+            if (currentInput) {
+                firstOperand = currentInput;
+                operator = value;
+                currentInput = '';
+            }
+        } else if (value === '√') {
+            // Square root
+            if (currentInput) {
+                let result = Math.sqrt(parseFloat(currentInput));
+                display.textContent = result;
+                currentInput = result;
+            }
+        } else if (value === 'x²') {
+            // Square
+            if (currentInput) {
+                let result = Math.pow(parseFloat(currentInput), 2);
+                display.textContent = result;
+                currentInput = result;
+            }
+        } else if (value === 'sin') {
+            // Sine
+            if (currentInput) {
+                let result = Math.sin(parseFloat(currentInput));
+                display.textContent = result;
+                currentInput = result;
+            }
+        } else if (value === 'cos') {
+            // Cosine
+            if (currentInput) {
+                let result = Math.cos(parseFloat(currentInput));
+                display.textContent = result;
+                currentInput = result;
+            }
+        } else if (value === 'tan') {
+            // Tangent
+            if (currentInput) {
+                let result = Math.tan(parseFloat(currentInput));
+                display.textContent = result;
+                currentInput = result;
+            }
+        } else if (value === 'Ln') {
+            // Natural logarithm
+            if (currentInput) {
+                let result = Math.log(parseFloat(currentInput));
+                display.textContent = result;
+                currentInput = result;
+            }
+        } else if (value === 'log') {
+            // Base 10 logarithm
+            if (currentInput) {
+                let result = Math.log10(parseFloat(currentInput));
+                display.textContent = result;
+                currentInput = result;
+            }
+        } else if (value === 'exp') {
+            // Exponential
+            if (currentInput) {
+                let result = Math.exp(parseFloat(currentInput));
+                display.textContent = result;
+                currentInput = result;
+            }
+        } else {
+            // Handle numbers and decimal point
+            currentInput += value;
+            display.textContent = currentInput;
+        }
+    });
+});
+
+function calculate(first, operator, second) {
+    first = parseFloat(first);
+    second = parseFloat(second);
+
+    switch (operator) {
+        case '+':
+            return first + second;
+        case '-':
+            return first - second;
+        case '*':
+            return first * second;
+        case '/':
+            return first / second;
+        case '%':
+            return first % second;
+        case '^':
+            return Math.pow(first, second); // Power operation
+        default:
+            return 0;
+    }
+}    </script>
+
+</body>
+</html>

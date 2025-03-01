@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sc.js"></script>
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+    .container {
+            border: solid;
+            width: 250px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column; 
+            gap: 10px; 
+    }
+    #calculer{
+        width: 100px;
+        background-color: rgb(126, 126, 221);
+        border-radius: 5px;
+    }
+</style>
+<body>
+
+    <div class="container">
+        <h2>Calculateur d'IMC</h2>
+        <label> Poids Kg</label>
+        <input type="text" id="T1" >
+        <label for="">Taille m</label>
+        <input type="text" id="T2" >
+        <input type="button" value="Permuter" id="calculer" onclick="imc()" >
+        <label for="" id="label"></label>
+    </div>
+    
+
+    <script>
+        function imc(){
+
+            var imc = parseFloat(T1.value) / (parseFloat(T2.value) * parseFloat(T2.value));
+
+            var resultat;
+
+            if (imc < 18.5) {
+                resultat = "Votre IMC est de " + imc.toFixed(2) + ". Vous êtes en état d'insuffisance pondérale.";
+            } else if (imc < 25) {
+                resultat = "Votre IMC est de " + imc.toFixed(2) + ". Vous avez un poids normal.";
+            } else if (imc < 30) {
+                resultat = "Votre IMC est de " + imc.toFixed(2) + ". Vous êtes en surpoids.";
+            } else if (imc < 35) {
+                resultat = "Votre IMC est de " + imc.toFixed(2) + ". Vous êtes en obésité modérée.";
+            } else if (imc < 40) {
+                resultat = "Votre IMC est de " + imc.toFixed(2) + ". Vous êtes en obésité sévère.";
+            } else {
+                resultat = "Votre IMC est de " + imc.toFixed(2) + ". Vous êtes en obésité morbide.";
+            }
+
+            label.textContent = resultat;
+
+
+
+
+
+
+        }
+    </script>
+</body>
+</html>
